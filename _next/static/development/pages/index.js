@@ -31,7 +31,7 @@ var Button = function Button(_ref) {
   }, __jsx("a", {
     href: link,
     target: "_blank",
-    className: "px-4 py-2 mx-auto rounded-full bg-dark-blue text-white text-lg",
+    className: "px-4 py-2 mx-auto rounded-full bg-dark-blue text-white text-xs sm:text-lg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -344,7 +344,7 @@ var Header = function Header() {
       columnNumber: 5
     }
   }, __jsx("a", {
-    className: "mr-6 no-underline",
+    className: "mr-6 no-underline mb-4",
     href: "/#hizmetler",
     __self: _this,
     __source: {
@@ -361,7 +361,7 @@ var Header = function Header() {
       columnNumber: 5
     }
   }, __jsx("a", {
-    className: "mr-4 no-underline",
+    className: "mr-6 no-underline mb-4",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -377,7 +377,7 @@ var Header = function Header() {
       columnNumber: 5
     }
   }, __jsx("a", {
-    className: "mr-4 no-underline",
+    className: "mr-6 no-underline mb-4",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -393,7 +393,7 @@ var Header = function Header() {
       columnNumber: 5
     }
   }, __jsx("a", {
-    className: "mr-4 no-underline",
+    className: "mr-6 no-underline mb-4",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -409,7 +409,7 @@ var Header = function Header() {
       columnNumber: 5
     }
   }, __jsx("a", {
-    className: "mr-4 no-underline",
+    className: "mr-6 no-underline mb-4",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -452,7 +452,7 @@ var OurTeam = function OurTeam() {
       columnNumber: 3
     }
   }, __jsx("h3", {
-    className: "font-thin text-6xl text-center w-full mb-12",
+    className: "font-thin text-4xl md:text-6xl text-center w-full mb-6",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -493,7 +493,7 @@ var OurTeam = function OurTeam() {
       columnNumber: 7
     }
   }, __jsx("div", {
-    className: "text-xl font-light ",
+    className: "md:text-xl font-light ",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -501,7 +501,7 @@ var OurTeam = function OurTeam() {
       columnNumber: 9
     }
   }, "Dr. Pelin Serin"), __jsx("div", {
-    className: "text-base font-thin my-2",
+    className: "text-sm md:text-base font-thin my-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -509,7 +509,7 @@ var OurTeam = function OurTeam() {
       columnNumber: 9
     }
   }, " 14.01.034 No.lu Aile Hekimli\u011Fi Birimi "), __jsx("div", {
-    className: "text-medium",
+    className: "text-medium text-sm md:text-base",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -542,7 +542,7 @@ var OurTeam = function OurTeam() {
       columnNumber: 7
     }
   }, __jsx("div", {
-    className: "text-xl font-light",
+    className: "md:text-xl font-light",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -550,7 +550,7 @@ var OurTeam = function OurTeam() {
       columnNumber: 9
     }
   }, "Hem. Ay\u015Feg\xFCl BAYRAM"), __jsx("div", {
-    className: "text-base font-thin my-2",
+    className: "text-sm md:text-base font-thin my-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -558,7 +558,7 @@ var OurTeam = function OurTeam() {
       columnNumber: 9
     }
   }, "14.01.034 No.lu Aile Hekimli\u011Fi Birimi "), __jsx("div", {
-    className: "text-medium",
+    className: "text-medium text-sm md:text-base",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -619,7 +619,8 @@ var SERVICES = [{
 var returnServices = function returnServices() {
   return SERVICES.map(function (service) {
     return __jsx("div", {
-      className: "w-1/3 py-4 px-6 flex flex-col mb-8",
+      key: service.icon,
+      className: "w-1/2 md:w-1/3 py-4 px-6 flex flex-col mb-8",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -627,7 +628,7 @@ var returnServices = function returnServices() {
         columnNumber: 7
       }
     }, __jsx("img", {
-      className: "w-24 h-24 mx-auto",
+      className: "w-16 h-16 md:w-24 md:h-24 mx-auto",
       src: "".concat(service.icon, ".png"),
       alt: service.icon,
       __self: _this,
@@ -637,7 +638,7 @@ var returnServices = function returnServices() {
         columnNumber: 9
       }
     }), __jsx("h6", {
-      className: "text-center text-lg md:text-xl font-thin my-4 -mx-2",
+      className: "text-center text-xl font-thin my-4 -mx-2",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -666,7 +667,7 @@ var Services = function Services() {
       columnNumber: 3
     }
   }, __jsx("h3", {
-    className: "font-thin text-6xl text-center w-full mb-12",
+    className: "font-thin text-4xl md:text-6xl text-center w-full mb-6 md:mb-12",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -731,7 +732,7 @@ var INFO = [{
 var returnUsefulInfo = function returnUsefulInfo() {
   return INFO.map(function (info) {
     return __jsx("div", {
-      className: "w-1/2 py-4 px-6 flex flex-col mb-8",
+      className: "w-1/2 py-4 px-2 md:px-6 flex flex-col mb-8",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -739,7 +740,7 @@ var returnUsefulInfo = function returnUsefulInfo() {
         columnNumber: 7
       }
     }, __jsx("img", {
-      className: "w-24 h-24 mx-auto mb-6",
+      className: "w-16 h-16 md:w-24 md:h-24 mx-auto mb-6",
       src: "".concat(info.icon, ".png"),
       alt: info.icon,
       __self: _this,
@@ -749,7 +750,7 @@ var returnUsefulInfo = function returnUsefulInfo() {
         columnNumber: 9
       }
     }), info.title && __jsx("h6", {
-      className: "text-center text-lg md:text-xl font-thin my-4 -mx-2",
+      className: "text-center md:text-xl font-thin my-4 -mx-2",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -779,7 +780,7 @@ var UsefulInformation = function UsefulInformation() {
       columnNumber: 3
     }
   }, __jsx("h3", {
-    className: "font-thin text-6xl text-center w-full mb-6",
+    className: "font-thin text-4xl md:text-6xl text-center w-full mb-6",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -830,7 +831,7 @@ var WorkingHours = function WorkingHours() {
       columnNumber: 3
     }
   }, __jsx("h3", {
-    className: "font-thin text-6xl text-center w-full mb-12",
+    className: "font-thin text-4xl md:text-6xl text-center w-full mb-6 md:mb-12",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -863,7 +864,7 @@ var WorkingHours = function WorkingHours() {
       columnNumber: 6
     }
   }, __jsx("p", {
-    className: "text-white tracking-wide text-base md:text-lg",
+    className: "text-white tracking-wide text-sm md:text-base md:text-lg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1829,7 +1830,13 @@ var Link = /*#__PURE__*/function (_react$Component) {
       // "<page>/index.html" directly.
 
 
-      if (false) { var rewriteUrlForNextExport; }
+      if (true) {
+        var rewriteUrlForNextExport = __webpack_require__(/*! ../next-server/lib/router/rewrite-url-for-export */ "./node_modules/next/dist/next-server/lib/router/rewrite-url-for-export.js").rewriteUrlForNextExport;
+
+        if (props.href && typeof __NEXT_DATA__ !== 'undefined' && __NEXT_DATA__.nextExport) {
+          props.href = rewriteUrlForNextExport(props.href);
+        }
+      }
 
       return _react["default"].cloneElement(child, props);
     }
@@ -2178,6 +2185,49 @@ exports.RouterContext = React.createContext(null);
 
 /***/ }),
 
+/***/ "./node_modules/next/dist/next-server/lib/router/rewrite-url-for-export.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/router/rewrite-url-for-export.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _slicedToArray = __webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "./node_modules/@babel/runtime/helpers/slicedToArray.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+function rewriteUrlForNextExport(url) {
+  var _url$split = url.split('#'),
+      _url$split2 = _slicedToArray(_url$split, 2),
+      pathname = _url$split2[0],
+      hash = _url$split2[1]; // tslint:disable-next-line
+
+
+  var _pathname$split = pathname.split('?'),
+      _pathname$split2 = _slicedToArray(_pathname$split, 2),
+      path = _pathname$split2[0],
+      qs = _pathname$split2[1];
+
+  if (path) {
+    path = path.replace(/\/$/, ''); // Append a trailing slash if this path does not have an extension
+
+    if (!/\.[^/]+\/?$/.test(path)) path += "/";
+  }
+
+  if (qs) path += '?' + qs;
+  if (hash) path += '#' + hash;
+  return path;
+}
+
+exports.rewriteUrlForNextExport = rewriteUrlForNextExport;
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/next-server/lib/router/router.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/next/dist/next-server/lib/router/router.js ***!
@@ -2502,7 +2552,14 @@ var Router = /*#__PURE__*/function () {
         var as = typeof _as === 'object' ? utils_1.formatWithValidation(_as) : _as; // Add the ending slash to the paths. So, we can serve the
         // "<page>/index.html" directly for the SSR page.
 
-        if (false) { var rewriteUrlForNextExport; }
+        if (true) {
+          var rewriteUrlForNextExport = __webpack_require__(/*! ./rewrite-url-for-export */ "./node_modules/next/dist/next-server/lib/router/rewrite-url-for-export.js").rewriteUrlForNextExport; // @ts-ignore this is temporarily global (attached to window)
+
+
+          if (__NEXT_DATA__.nextExport) {
+            as = rewriteUrlForNextExport(as);
+          }
+        }
 
         _this2.abortComponentLoad(as); // If the url change is only related to a hash change
         // We should not proceed. We should only change the state.
@@ -2963,9 +3020,11 @@ var Router = /*#__PURE__*/function () {
   }], [{
     key: "_rewriteUrlForNextExport",
     value: function _rewriteUrlForNextExport(url) {
-      if (false) { var rewriteUrlForNextExport; } else {
-        return url;
-      }
+      if (true) {
+        var rewriteUrlForNextExport = __webpack_require__(/*! ./rewrite-url-for-export */ "./node_modules/next/dist/next-server/lib/router/rewrite-url-for-export.js").rewriteUrlForNextExport;
+
+        return rewriteUrlForNextExport(url);
+      } else {}
     }
   }]);
 
@@ -5278,7 +5337,7 @@ var bgStyle = {
 };
 
 var Banner = __jsx("img", {
-  className: "w-full",
+  className: "md:w-full",
   src: "banner.png",
   alt: "banner",
   __self: undefined,
@@ -5340,7 +5399,7 @@ var Banner = __jsx("img", {
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "items-center mx-auto text-white text-center mt-40",
+    className: "items-center mx-auto text-white text-center mt-24 md:mt-32",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -5349,7 +5408,7 @@ var Banner = __jsx("img", {
     }
   }, __jsx("img", {
     src: "logo.png",
-    className: "h-40 w-auto mx-auto",
+    className: "h-32 md:h-40 w-auto mx-auto",
     alt: "saglik bakanligi logo",
     __self: _this,
     __source: {
@@ -5358,7 +5417,7 @@ var Banner = __jsx("img", {
       columnNumber: 13
     }
   }), __jsx("h1", {
-    className: "text-6xl font-thin mt-12",
+    className: "text-4xl md:text-6xl font-thin mt-12",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -5366,7 +5425,7 @@ var Banner = __jsx("img", {
       columnNumber: 13
     }
   }, "\u015Eehit Velit Bekta\u015F"), __jsx("h3", {
-    className: "text-4xl font-thin mb-12",
+    className: "text-2xl md:text-4xl font-thin mb-12",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -5424,7 +5483,7 @@ var Banner = __jsx("img", {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!***************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fslnsrn%2FDocuments%2FProjects%2FPelinAsm%2Fpages%2Findex.js ***!
   \***************************************************************************************************************************************/
@@ -5447,5 +5506,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
