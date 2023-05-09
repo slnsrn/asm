@@ -305,7 +305,7 @@
               N(
                 "div",
                 { className: "w-full md:w-1/2 p-4" },
-                N("img", { src: "doctor.jpeg", alt: "Pelin Serin" }),
+                N("img", { src: "doctor.jpeg", alt: "Pelin Akgün" }),
                 N(
                   "div",
                   {
@@ -315,7 +315,7 @@
                   N(
                     "div",
                     { className: "md:text-xl font-light " },
-                    "Dr. Pelin Serin"
+                    "Dr. Pelin Akgün"
                   ),
                   N(
                     "div",
@@ -332,7 +332,7 @@
               N(
                 "div",
                 { className: "w-full md:w-1/2 p-4" },
-                N("img", { src: "nurse.jpeg", alt: "" }),
+                N("img", { src: "ebe.jpeg", alt: "" }),
                 N(
                   "div",
                   {
@@ -342,7 +342,7 @@
                   N(
                     "div",
                     { className: "md:text-xl font-light" },
-                    "Hem. Hilal Büyüktopaç"
+                    "Ebe Yasemin Öztunç"
                   ),
                   N(
                     "div",
