@@ -144,7 +144,7 @@ webpackHotUpdate("static/development/pages/index.js", {
                 },
               },
               __jsx("img", {
-                src: "nurse.jpeg",
+                src: "ebe.jpeg",
                 alt: "Aysegul Bayram",
                 __self: _this,
                 __source: {
